@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+}
+
+/* HERO */
+.hero {
+    background: #2f4f6f;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero p {
+    color: #e0a038;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #e0a038;
+    color: white;
+    text-decoration: none;
+}
+
+/* SERVICES */
+.services {
+    padding: 60px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* AUTRES SECTIONS */
+.method, .value, .contact {
+    padding: 60px;
+    text-align: center;
