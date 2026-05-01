@@ -152,6 +152,44 @@ body {
   padding: 20px;
   border-radius: 0 10px 0 10px;
   max-width: 300px;
+}.finance-offer {
+  background: #3f4c63;
+  color: white;
+  text-align: center;
+  padding: 80px 40px;
+}
+
+.finance-offer h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #d79b2e;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+/* GRID */
+.finance-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* ITEM */
+.finance-item {
+  width: 180px;
+}
+
+.icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.finance-item h3 {
+  font-size: 18px;
 }
 /* SERVICES */
 .services {
