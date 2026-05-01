@@ -103,6 +103,55 @@ body {
 .check-item span {
   margin-right: 15px;
   font-size: 20px;
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 80px 40px;
+  gap: 40px;
+}
+
+/* GAUCHE */
+.hero-left {
+  flex: 1;
+}
+
+.tag {
+  color: #d79b2e;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-left h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #3f4c63;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* DROITE */
+.hero-right {
+  flex: 1;
+  position: relative;
+}
+
+.hero-right img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.mission {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #d79b2e;
+  color: white;
+  padding: 20px;
+  border-radius: 0 10px 0 10px;
+  max-width: 300px;
 }
 /* SERVICES */
 .services {
