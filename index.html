@@ -4,14 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Icaros Consulting</title>
-  <meta name="description" content="Icaros Consulting accompagne les fonctions supports vers des services Lean, collaboratifs et innovants." />
+  <meta name="description" content="Icaros Consulting accompagne les fonctions supports vers des services Lean, collaboratifs, innovants et orientés performance." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <header class="header">
-    <nav class="nav">
-      <a class="brand" href="#accueil">Icaros Consulting</a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a class="brand" href="#accueil">
+        <span class="brand-mark">IC</span>
+        <span>Icaros Consulting</span>
+      </a>
 
       <ul class="menu">
         <li><a href="#services">Nos services</a></li>
@@ -27,58 +33,65 @@
     <section id="accueil" class="hero">
       <div class="hero-inner">
         <p class="hero-kicker">
-          Des solutions pragmatiques pour faire évoluer vos fonctions supports.
+          Chez Icaros Consulting, nous vous proposons des solutions pragmatiques
+          pour accompagner vos fonctions supports vers des services Lean,
+          collaboratifs et innovants.
         </p>
 
-        <h1>Icaros Consulting</h1>
+        <h1>Nous transformons vos fonctions supports en moteurs de performance et de création de valeur.</h1>
 
-        <p class="hero-subtitle">
-          Transformer les fonctions supports en moteurs de performance et de création de valeur.
-        </p>
-
-        <p class="hero-line">Envolons-nous vers l’excellence</p>
+        <div class="hero-footer">
+          <p>Icaros Consulting</p>
+          <span>Envolons-nous vers l'excellence</span>
+        </div>
       </div>
     </section>
 
     <section id="services" class="section">
       <div class="container">
-        <p class="eyebrow">Expertises</p>
-        <h2>Nos services</h2>
+        <div class="section-heading">
+          <p class="eyebrow">Expertises</p>
+          <h2>Nos services</h2>
+          <p>
+            Un accompagnement complet pour diagnostiquer, structurer, transformer
+            et renforcer les fonctions finance, achats et services supports.
+          </p>
+        </div>
 
         <div class="cards">
           <article class="card">
             <h3>Déploiement Lean</h3>
-            <p>Accompagnement à la mise en place d’une démarche Lean Service adaptée à votre organisation.</p>
+            <p>Mettre en place une méthodologie Lean Service adaptée au terrain et aux équipes.</p>
             <a href="#lean">En savoir plus</a>
           </article>
 
           <article class="card">
             <h3>Ingénierie processus</h3>
-            <p>Design et redéfinition des processus financiers, achats et Purchase to Pay.</p>
+            <p>Designer et redéfinir les processus financiers, achats et Purchase to Pay.</p>
             <a href="#processus">En savoir plus</a>
           </article>
 
           <article class="card">
             <h3>Assessment</h3>
-            <p>Évaluation de la maturité organisationnelle et construction d’un plan d’action priorisé.</p>
+            <p>Évaluer la maturité de l'organisation et construire un plan d'action priorisé.</p>
             <a href="#assessment">En savoir plus</a>
           </article>
 
           <article class="card">
             <h3>Expertise RFE</h3>
-            <p>Préparation à la réforme de la facturation électronique et mise en conformité.</p>
+            <p>Préparer la réforme de la facturation électronique et sécuriser la mise en conformité.</p>
             <a href="#rfe">En savoir plus</a>
           </article>
 
           <article class="card">
             <h3>Support opérationnel</h3>
-            <p>Renfort temporaire ou récurrent des équipes comptables et financières.</p>
+            <p>Renforcer les équipes comptables et financières sur des besoins ponctuels ou récurrents.</p>
             <a href="#support">En savoir plus</a>
           </article>
 
           <article class="card">
             <h3>Digitalisation</h3>
-            <p>Accompagnement dans la mise en place d’outils digitaux, collaboratifs et robotiques.</p>
+            <p>Déployer des solutions digitales, collaboratives et robotiques au sein de l'organisation.</p>
             <a href="#digitalisation">En savoir plus</a>
           </article>
         </div>
@@ -90,31 +103,31 @@
         <div>
           <p class="eyebrow">Lean Service</p>
           <h2>Déploiement Lean</h2>
-          <p>
-            Icaros Consulting définit le plan de marche, accompagne les équipes,
-            structure les rituels et met en place les outils nécessaires au pilotage.
+          <p class="lead">
+            Définir le plan de marche et accompagner la mise en place d'une
+            méthodologie Lean Service durable.
           </p>
         </div>
 
         <div class="method-list">
           <article>
             <span>5S</span>
-            <p>Planification du projet, cadrage du pilote, communication et implication des parties prenantes.</p>
+            <p>Planification du déploiement, choix du pilote, scaling, communication, sponsors et parties prenantes.</p>
           </article>
 
           <article>
             <span>QRQC</span>
-            <p>Formation, coaching et accompagnement des collaborateurs impactés.</p>
+            <p>Formation des collaborateurs impactés, coaching et accompagnement lors de sessions dédiées.</p>
           </article>
 
           <article>
             <span>DMAIC</span>
-            <p>Mise en place de modèles d’analyse, supports de présentation et outils de reporting.</p>
+            <p>Mise en place de templates d'analyse, supports de présentation et outils dédiés au reporting.</p>
           </article>
 
           <article>
             <span>RPO</span>
-            <p>Animation de rendez-vous réguliers et conduite du changement dans les équipes.</p>
+            <p>Animation de rendez-vous récurrents pour embarquer l'ensemble du service dans le changement.</p>
           </article>
         </div>
       </div>
@@ -125,36 +138,39 @@
         <div>
           <p class="eyebrow">Processus</p>
           <h2>Ingénierie processus</h2>
-          <p>
-            Analyse des processus existants, amélioration de la qualité des données,
-            réduction des risques de non-conformité et accompagnement au changement.
+          <p class="lead">
+            Aider au design ou à la redéfinition de vos processus financiers et
+            achats, avec une attention portée à la qualité, l'efficience, la
+            culture de service et la conformité.
           </p>
         </div>
 
-        <ul class="tags">
-          <li>Finance</li>
-          <li>Achats</li>
-          <li>Qualité</li>
-          <li>Efficience</li>
-          <li>Culture de service</li>
-          <li>RSE</li>
-        </ul>
+        <div class="bullet-panel">
+          <ul>
+            <li>Analyse des processus existants sur tout ou partie de la chaîne Purchase to Pay.</li>
+            <li>Identification des inefficacités, points faibles et risques de non-conformité.</li>
+            <li>Accompagnement à la mise en place des nouveaux processus et formation des employés.</li>
+            <li>Amélioration de la qualité des données comptables pour mieux piloter la décision.</li>
+          </ul>
+        </div>
       </div>
     </section>
 
     <section id="assessment" class="section section-alt">
       <div class="container">
-        <p class="eyebrow">Diagnostic</p>
-        <h2>Assessment</h2>
-        <p class="section-intro">
-          Évaluer la maturité de l’organisation sur les axes clés de performance,
-          puis formaliser un plan d’action priorisé selon l’impact et la difficulté.
-        </p>
+        <div class="section-heading">
+          <p class="eyebrow">Diagnostic</p>
+          <h2>Assessment</h2>
+          <p>
+            Évaluer la maturité de votre organisation et vous accompagner vers
+            l'excellence grâce à un diagnostic multi-axes.
+          </p>
+        </div>
 
         <div class="pill-grid">
           <div>Compétences et formations</div>
           <div>Efficience et processus</div>
-          <div>Système d’information</div>
+          <div>Système d'information</div>
           <div>Qualité et conformité</div>
         </div>
       </div>
@@ -162,78 +178,119 @@
 
     <section id="rfe" class="section">
       <div class="container">
-        <p class="eyebrow">Facturation électronique</p>
-        <h2>Expertise RFE</h2>
+        <div class="section-heading">
+          <p class="eyebrow">Facturation électronique</p>
+          <h2>Expertise RFE</h2>
+          <p>
+            Accompagner votre entreprise sur tout le cycle de préparation, de
+            mise en conformité et de déploiement de la réforme.
+          </p>
+        </div>
 
-        <div class="text-columns">
-          <p>
-            Accompagnement sur le cadrage réglementaire, le diagnostic d’impact,
-            l’analyse des écarts, la refonte des processus finance et achats.
-          </p>
-          <p>
-            Soutien au choix des outils, à l’architecture fonctionnelle,
-            à l’onboarding des parties prenantes et à la conduite du changement.
-          </p>
+        <div class="feature-grid">
+          <article>
+            <h3>Cadrage réglementaire</h3>
+            <p>Diagnostic d'impact, analyse des écarts réglementaires et alignement des processus.</p>
+          </article>
+
+          <article>
+            <h3>Refonte finance et achats</h3>
+            <p>Reconstruction des processus, fiabilisation des référentiels et sécurisation de la donnée.</p>
+          </article>
+
+          <article>
+            <h3>Choix des outils</h3>
+            <p>Définition de l'architecture fonctionnelle, choix de la plateforme agréée et pilotage de l'implémentation.</p>
+          </article>
+
+          <article>
+            <h3>Conduite du changement</h3>
+            <p>Formation des équipes finance, achats, ADV, comptabilité, contrôle interne, support et management.</p>
+          </article>
         </div>
       </div>
     </section>
 
     <section id="support" class="section section-alt">
-      <div class="container">
-        <p class="eyebrow">Renfort</p>
-        <h2>Support opérationnel</h2>
-        <p class="section-intro">
-          Mise à disposition de ressources sur des postes comptables ou financiers,
-          avec visibilité sur les missions déléguées et plan d’amélioration continue.
-        </p>
+      <div class="container split">
+        <div>
+          <p class="eyebrow">Renfort opérationnel</p>
+          <h2>Support opérationnel</h2>
+          <p class="lead">
+            Mettre à disposition des ressources en services comptables sur un
+            large éventail de postes, selon un besoin ponctuel ou récurrent.
+          </p>
+        </div>
+
+        <div class="bullet-panel">
+          <ul>
+            <li>Comptable auxiliaire, responsable comptabilité fournisseurs et fonctions associées.</li>
+            <li>Optimisation de la charge lors des clôtures ou des transferts de compétence.</li>
+            <li>Rapport d'étonnement pour donner de la visibilité sur les postes délégués.</li>
+            <li>Plan d'amélioration continue pour les missions longues.</li>
+          </ul>
+        </div>
       </div>
     </section>
 
     <section id="digitalisation" class="section">
-      <div class="container">
-        <p class="eyebrow">Transformation digitale</p>
-        <h2>Digitalisation</h2>
-        <p class="section-intro">
-          Expression de besoin, audit d’outils, process mining, RPA,
-          business analysis et accompagnement à la prise en main.
-        </p>
+      <div class="container split">
+        <div>
+          <p class="eyebrow">Transformation digitale</p>
+          <h2>Digitalisation</h2>
+          <p class="lead">
+            Accompagner l'organisation dans la mise en place de solutions
+            digitales, collaboratives et robotiques.
+          </p>
+        </div>
+
+        <div class="bullet-panel">
+          <ul>
+            <li>Expression de besoin pour l'acquisition d'outils SRM, RPA ou Process Mining.</li>
+            <li>Audit de performance des outils existants et plan d'action de digitalisation.</li>
+            <li>Mise à disposition d'un Business Analyst et développement de robots UiPath.</li>
+            <li>Analyse, conduite du changement et accompagnement à la prise en main.</li>
+          </ul>
+        </div>
       </div>
     </section>
 
     <section id="methodologie" class="section dark">
       <div class="container">
-        <p class="eyebrow">Approche</p>
-        <h2>Notre méthodologie</h2>
+        <div class="section-heading">
+          <p class="eyebrow">Approche</p>
+          <h2>Notre méthodologie</h2>
+        </div>
 
         <div class="steps">
           <article>
             <span>01</span>
             <h3>Analyse de situation</h3>
-            <p>Observation terrain, entretiens et analyse des processus existants.</p>
+            <p>Étude des workflows, processus et technologies via observations terrain et entretiens.</p>
           </article>
 
           <article>
             <span>02</span>
             <h3>Identification des gaps</h3>
-            <p>Détection des inefficacités et écarts avec les objectifs cibles.</p>
+            <p>Repérage des inefficacités et aléas affectant la performance.</p>
           </article>
 
           <article>
             <span>03</span>
-            <h3>Plan d’action</h3>
-            <p>Définition des solutions, responsables, priorités et échéances.</p>
+            <h3>Plan d'action</h3>
+            <p>Liste des solutions avec responsables et échéances validées par les parties prenantes.</p>
           </article>
 
           <article>
             <span>04</span>
             <h3>Mise en œuvre</h3>
-            <p>Suivi opérationnel, support technique et accompagnement des équipes.</p>
+            <p>Suivi du plan d'actions, support technique et accompagnement du changement.</p>
           </article>
 
           <article>
             <span>05</span>
             <h3>Amélioration continue</h3>
-            <p>Mesure des résultats, pilotage par KPI et ajustements réguliers.</p>
+            <p>Mesure des résultats, mise en place de KPI et identification des nouveaux leviers de progrès.</p>
           </article>
         </div>
       </div>
@@ -241,22 +298,26 @@
 
     <section id="identite" class="section">
       <div class="container">
-        <p class="eyebrow">Équipe</p>
-        <h2>Notre identité</h2>
+        <div class="section-heading">
+          <p class="eyebrow">Équipe</p>
+          <h2>Notre identité</h2>
+        </div>
 
         <div class="profiles">
           <article class="profile">
             <h3>Florian Bodé</h3>
             <p class="role">Associé fondateur</p>
             <p><strong>Secteurs :</strong> industrie, aéronautique, cosmétique, conseil, banque.</p>
-            <p><strong>Expériences :</strong> comptabilité auxiliaire, management d’équipe, gestion de projet.</p>
+            <p><strong>Principaux postes :</strong> responsable comptabilité auxiliaire, management d'équipe de 30 collaborateurs, project manager.</p>
+            <p><strong>Certifications :</strong> à compléter.</p>
           </article>
 
           <article class="profile">
             <h3>Arnaud Greffet</h3>
             <p class="role">Associé fondateur</p>
             <p><strong>Secteurs :</strong> industrie, aéronautique, cosmétique, bancaire et ferroviaire.</p>
-            <p><strong>Expériences :</strong> direction financière, process finance, transformation internationale.</p>
+            <p><strong>Principaux postes :</strong> directeur financier de 250 collaborateurs, Business Process Owner Finance monde.</p>
+            <p><strong>Certifications :</strong> à compléter.</p>
           </article>
         </div>
       </div>
@@ -264,23 +325,25 @@
 
     <section id="valeurs" class="section section-alt">
       <div class="container">
-        <p class="eyebrow">Engagements</p>
-        <h2>Nos valeurs</h2>
+        <div class="section-heading">
+          <p class="eyebrow">Engagements</p>
+          <h2>Nos valeurs</h2>
+        </div>
 
         <div class="values">
           <article>
             <h3>Pragmatisme</h3>
-            <p>Des solutions concrètes, individualisées et applicables.</p>
+            <p>Trouver des solutions concrètes, individualisées et applicables à votre situation.</p>
           </article>
 
           <article>
             <h3>Indépendance</h3>
-            <p>Des recommandations adaptées à vos besoins, sans partenariat imposé.</p>
+            <p>Construire des recommandations adaptées à vos besoins, en dehors de tout partenariat systématique.</p>
           </article>
 
           <article>
             <h3>Conviction</h3>
-            <p>Des propositions crédibles, assumées et orientées résultat.</p>
+            <p>Proposer des solutions crédibles, assumées et sans réserve.</p>
           </article>
         </div>
       </div>
@@ -288,8 +351,10 @@
 
     <section id="contact" class="section contact">
       <div class="container">
-        <p class="eyebrow">Contact</p>
-        <h2>Contacts</h2>
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Contacts</h2>
+        </div>
 
         <div class="contact-grid">
           <article>
