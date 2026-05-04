@@ -1433,3 +1433,115 @@ h3 {
 .nav-contact {
   font-size: 22px !important;
 }
+
+  /* FIX TAILLES TEXTE INGENIERIE PROCESSUS */
+
+.process-tabs {
+  gap: 24px !important;
+}
+
+.process-tabs span {
+  height: 76px !important;
+  padding: 12px 18px 8px !important;
+  font-size: 28px !important;
+  line-height: 1.05 !important;
+  white-space: normal !important;
+  overflow: visible !important;
+}
+
+.process-benefits {
+  gap: 54px !important;
+}
+
+.process-benefits article {
+  grid-template-columns: 86px minmax(0, 1fr) !important;
+  gap: 24px !important;
+}
+
+.process-benefits h4 {
+  font-size: 24px !important;
+  line-height: 1.18 !important;
+}
+
+.process-benefits p {
+  font-size: 24px !important;
+  line-height: 1.24 !important;
+}
+
+.process-icon {
+  width: 80px !important;
+  height: 80px !important;
+}
+
+/* Ajustement icônes pour suivre la réduction */
+.icon-chart::before {
+  left: 13px !important;
+  top: 5px !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.icon-chart::after {
+  left: 34px !important;
+  top: 54px !important;
+  width: 16px !important;
+  height: 30px !important;
+}
+
+.icon-user::before {
+  left: 22px !important;
+  width: 38px !important;
+  height: 38px !important;
+}
+
+.icon-user::after {
+  left: 9px !important;
+  top: 44px !important;
+  width: 64px !important;
+  height: 38px !important;
+}
+
+.icon-data {
+  width: 82px !important;
+}
+
+.icon-data::before,
+.icon-data::after {
+  width: 78px !important;
+  height: 26px !important;
+}
+
+.icon-data::before {
+  box-shadow:
+    0 28px 0 -2px #ffffff,
+    0 28px 0 0 #e8a42a,
+    0 56px 0 -2px #ffffff,
+    0 56px 0 0 #e8a42a !important;
+}
+
+.icon-lock::before {
+  left: 4px !important;
+  top: 20px !important;
+  width: 74px !important;
+  height: 48px !important;
+}
+
+.icon-lock::after {
+  left: 48px !important;
+  top: 42px !important;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+/* Sur écrans moyens : encore plus compact */
+@media (max-width: 1350px) {
+  .process-right {
+    padding: 18px 44px 56px !important;
+  }
+
+  .process-heading h3 {
+    font-size: 38px !important;
+  }
+
+  .process-tabs {
+    gap: 
