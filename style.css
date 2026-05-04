@@ -1029,3 +1029,86 @@ h3 {
   line-height: 1.5;
   color: #555;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    padding: 40px 20px;
+}
+
+.lean-method {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.lean-method__title {
+    text-align: center;
+    font-size: 1.8rem; /* 🔥 réduit */
+    font-weight: 600;  /* 🔥 moins agressif */
+    color: #c8953c;
+    margin-bottom: 50px;
+}
+
+.lean-method__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.lean-method__column {
+    text-align: center;
+}
+
+.lean-method__column-title {
+    font-size: 0.95rem; /* 🔥 réduit */
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 20px; /* 🔥 moins d’espace */
+    min-height: 60px;
+}
+
+.lean-method__column-title--gold {
+    color: #c8953c;
+}
+
+.lean-method__column-title--dark {
+    color: #4a5568;
+}
+
+.lean-method__text {
+    font-size: 0.9rem; /* 🔥 beaucoup plus lisible */
+    font-weight: 400;  /* 🔥 très important → plus léger */
+    line-height: 1.6;
+}
+
+.lean-method__text--gold {
+    color: #c8953c;
+}
+
+.lean-method__text--dark {
+    color: #4a5568;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .lean-method__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .lean-method__grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .lean-method__title {
+        font-size: 1.4rem;
+    }
+}
