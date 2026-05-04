@@ -1158,27 +1158,6 @@ h3 {
   }
 }
 
-/* FIX HEADER CONTACT DECALE */
-
-.header {
-  width: 100%;
-  height: 132px;
-  overflow: hidden;
-}
-
-.top-nav {
-  width: 100%;
-  max-width: 1680px;
-  height: 132px;
-  margin: 0 auto;
-  padding: 0 56px !important;
-  display: grid;
-  grid-template-columns: 150px minmax(680px, 980px) 190px !important;
-  justify-content: space-between;
-  align-items: center;
-  column-gap: 28px !important;
-}
-
 .nav-menu {
   width: 100%;
   max-width: 980px;
@@ -1543,5 +1522,238 @@ h3 {
     font-size: 38px !important;
   }
 
+ /* FIX HEADER */
+
+.top-nav {
+  width: 100%;
+  max-width: 1680px;
+  height: 132px;
+  margin: 0 auto;
+  padding: 0 32px !important;
+  display: grid;
+  grid-template-columns: 130px minmax(760px, 1100px) 170px !important;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px !important;
+}
+
+.nav-menu {
+  width: 100%;
+  max-width: 1100px !important;
+  min-height: 66px;
+  padding: 0 34px !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+  gap: 30px !important;
+  overflow: visible !important;
+}
+
+.nav-menu a {
+  font-size: 22px !important;
+  white-space: nowrap;
+}
+
+.nav-contact {
+  justify-self: end;
+  font-size: 22px !important;
+  white-space: nowrap;
+}
+
+/* FIX INGENIERIE PROCESSUS */
+
+.process-tabs {
+  gap: 24px !important;
+}
+
+.process-tabs span {
+  height: 76px !important;
+  padding: 12px 18px 8px !important;
+  font-size: 26px !important;
+  line-height: 1.05 !important;
+  white-space: normal !important;
+  overflow: visible !important;
+}
+
+.process-benefits {
+  gap: 48px !important;
+}
+
+.process-benefits article {
+  grid-template-columns: 78px minmax(0, 1fr) !important;
+  gap: 22px !important;
+}
+
+.process-benefits h4 {
+  font-size: 22px !important;
+  line-height: 1.18 !important;
+}
+
+.process-benefits p {
+  font-size: 22px !important;
+  line-height: 1.24 !important;
+}
+
+.process-icon {
+  width: 74px !important;
+  height: 74px !important;
+}
+
+/* Icones réduites */
+
+.icon-chart::before {
+  left: 12px !important;
+  top: 5px !important;
+  width: 46px !important;
+  height: 46px !important;
+}
+
+.icon-chart::after {
+  left: 31px !important;
+  top: 50px !important;
+  width: 15px !important;
+  height: 28px !important;
+}
+
+.icon-user::before {
+  left: 20px !important;
+  width: 34px !important;
+  height: 34px !important;
+}
+
+.icon-user::after {
+  left: 8px !important;
+  top: 40px !important;
+  width: 58px !important;
+  height: 34px !important;
+}
+
+.icon-data {
+  width: 74px !important;
+}
+
+.icon-data::before,
+.icon-data::after {
+  width: 70px !important;
+  height: 24px !important;
+}
+
+.icon-data::before {
+  box-shadow:
+    0 26px 0 -2px #ffffff,
+    0 26px 0 0 #e8a42a,
+    0 52px 0 -2px #ffffff,
+    0 52px 0 0 #e8a42a !important;
+}
+
+.icon-lock::before {
+  left: 4px !important;
+  top: 18px !important;
+  width: 66px !important;
+  height: 44px !important;
+}
+
+.icon-lock::after {
+  left: 42px !important;
+  top: 38px !important;
+  width: 28px !important;
+  height: 28px !important;
+}
+
+/* Responsive propre */
+
+@media (max-width: 1350px) {
+  .top-nav {
+    grid-template-columns: 120px minmax(0, 1fr) 150px !important;
+    padding: 0 24px !important;
+    column-gap: 16px !important;
+  }
+
+  .nav-menu {
+    padding: 0 24px !important;
+    gap: 20px !important;
+  }
+
+  .nav-menu a {
+    font-size: 19px !important;
+  }
+
+  .nav-contact {
+    font-size: 19px !important;
+  }
+
+  .process-right {
+    padding: 18px 38px 56px !important;
+  }
+
+  .process-heading h3 {
+    font-size: 36px !important;
+  }
+
   .process-tabs {
-    gap: 
+    gap: 16px !important;
+  }
+
+  .process-tabs span {
+    font-size: 20px !important;
+  }
+
+  .process-benefits h4,
+  .process-benefits p {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    height: auto;
+    overflow: visible;
+  }
+
+  .top-nav {
+    height: auto;
+    padding: 18px 20px !important;
+    grid-template-columns: 1fr !important;
+    row-gap: 18px;
+  }
+
+  .logo-card {
+    justify-self: center;
+  }
+
+  .nav-menu {
+    width: 100%;
+    min-height: auto;
+    padding: 18px 20px !important;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    border-radius: 14px;
+  }
+
+  .nav-menu a {
+    font-size: 18px !important;
+  }
+
+  .nav-contact {
+    justify-self: center;
+  }
+
+  .process-tabs {
+    grid-template-columns: 1fr !important;
+  }
+
+  .process-tabs span {
+    border-radius: 999px !important;
+    font-size: 22px !important;
+  }
+
+  .process-benefits article {
+    grid-template-columns: 1fr !important;
+  }
+
+  .process-benefits h4,
+  .process-benefits p {
+    font-size: 20px !important;
+  }
+}
+
