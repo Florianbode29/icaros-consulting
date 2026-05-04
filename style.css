@@ -33,11 +33,11 @@ a { color: inherit; }
   max-width: 1700px;
   height: 132px;
   margin: 0 auto;
-  padding: 0 112px;
+  padding: 0 72px;
   display: grid;
-  grid-template-columns: 180px 1fr 230px;
+  grid-template-columns: 150px minmax(0, 1fr) 190px;
   align-items: center;
-  column-gap: 36px;
+  column-gap: 28px;
 }
 
 .logo-card {
@@ -85,12 +85,14 @@ a { color: inherit; }
 
 .nav-menu {
   justify-self: center;
+  max-width: 980px;
+  width: 100%;
   min-height: 66px;
-  padding: 0 50px;
+  padding: 0 36px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 78px;
+  justify-content: space-between;
+  gap: 34px;
   list-style: none;
   background: #3d4a63;
   border-radius: 16px;
@@ -99,7 +101,7 @@ a { color: inherit; }
 .nav-menu a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 24px;
   line-height: 1;
   font-weight: 400;
   white-space: nowrap;
@@ -113,10 +115,10 @@ a { color: inherit; }
   justify-self: end;
   display: inline-flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
   color: #2f3d5c;
   text-decoration: none;
-  font-size: 26px;
+  font-size: 25px;
   line-height: 1;
   font-weight: 800;
   white-space: nowrap;
