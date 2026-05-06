@@ -553,49 +553,8 @@ h3 {
 }
 /* INGENIERIE PROCESSUS */
 
-.process-section {
-  display: grid;
-  grid-template-columns: 650px 1fr;
-  min-height: 980px;
-  background: #ffffff;
-}
-
-.process-left {
-  background: var(--menu-blue);
-  color: #ffffff;
-  overflow: hidden;
-}
-
-.process-left-content {
-  min-height: 980px;
-  padding: 18px 72px 0 86px;
-  display: flex;
-  flex-direction: column;
-}
-
-.process-left h2 {
-  color: #ffffff;
-  font-size: 76px;
-  line-height: 1.05;
-  font-weight: 800;
-}
-
-.process-left h2::after {
-  content: "";
-  display: block;
-  width: 94px;
-  height: 5px;
-  margin-top: 16px;
-  background: var(--gold);
-}
-
-.process-intro {
-  max-width: 460px;
-  margin-top: 104px;
-  color: #ffffff;
-  font-size: 29px;
-  line-height: 1.26;
-}
+.ingenierie-processus {
+  padding: 100px 20px;
 
 .process-objective {
   max-width: 470px;
