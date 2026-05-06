@@ -464,19 +464,19 @@ h3 {
 
 /* ICON */
 .lean-deploiement .icon {
-  width: 44px;
-  height: 44px;
-  border-radius: 12px;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
   background: linear-gradient(135deg, #0f2d5c, #1f4b99);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 16px;
+  margin-bottom: 14px;
 }
 
 .lean-deploiement .icon svg {
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   fill: #ffffff;
 }
 
