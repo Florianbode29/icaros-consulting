@@ -403,77 +403,116 @@ h3 {
 
 /* DEPLOIEMENT LEAN */
 
-.lean-section {
-  padding: 38px 24px 72px;
-  background: #ffffff;
+.lean-deploiement {
+  padding: 100px 20px;
+  background: #f6f8fb;
+  font-family: "Inter", Arial, sans-serif;
+  color: #111827;
 }
 
-.lean-container {
-  max-width: 1500px;
+.lean-deploiement .container {
+  max-width: 1150px;
   margin: 0 auto;
 }
 
-.lean-heading {
-  text-align: center;
-}
-
-.lean-heading h2 {
-  margin-bottom: 10px;
-  color: var(--gold);
-  font-size: 76px;
-  line-height: 1;
-  font-weight: 800;
-}
-
-.lean-heading p {
-  max-width: 780px;
-  margin: 0 auto;
-  color: var(--blue);
-  font-size: 29px;
-  line-height: 1.22;
-  font-weight: 800;
-}
-
-.lean-heading h3 {
-  margin-top: 78px;
-  margin-bottom: 82px;
-  color: var(--gold);
+.lean-deploiement h2 {
   font-size: 38px;
-  line-height: 1.1;
-  font-weight: 800;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin-bottom: 10px;
 }
 
-.lean-process-grid {
+.lean-deploiement h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #6b7280;
+  margin-bottom: 40px;
+}
+
+.lean-deploiement .intro {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #4b5563;
+  max-width: 850px;
+  margin-bottom: 25px;
+}
+
+/* GRID */
+.lean-deploiement .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 72px;
-  text-align: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
 }
 
-.lean-process h4 {
-  min-height: 74px;
-  margin-bottom: 44px;
-  font-size: 28px;
-  line-height: 1.22;
-  font-weight: 800;
+/* CARD PREMIUM */
+.lean-deploiement .card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 26px;
+  border: 1px solid #eef0f3;
+  box-shadow: 0 10px 30px rgba(17, 24, 39, 0.05);
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
 }
 
-.lean-process p {
-  font-size: 29px;
-  line-height: 1.25;
-  font-weight: 800;
+.lean-deploiement .card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 45px rgba(17, 24, 39, 0.12);
+  border-color: #dbe3ea;
 }
 
-.lean-gold,
-.lean-gold h4,
-.lean-gold p {
-  color: var(--gold);
+/* ICON */
+.lean-deploiement .icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #0f2d5c, #1f4b99);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
 }
 
-.lean-blue,
-.lean-blue h4,
-.lean-blue p {
-  color: var(--blue);
+.lean-deploiement .icon svg {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+}
+
+/* TEXT */
+.lean-deploiement .card h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #111827;
+}
+
+.lean-deploiement .card p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #6b7280;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .lean-deploiement .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .lean-deploiement {
+    padding: 70px 16px;
+  }
+
+  .lean-deploiement .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .lean-deploiement h2 {
+    font-size: 30px;
+  }
 }
 
 /* INGENIERIE PROCESSUS */
