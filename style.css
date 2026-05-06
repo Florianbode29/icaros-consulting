@@ -443,6 +443,46 @@ h3 {
   font-weight: 600;
 }
 
+.lean-method {
+  padding: 100px 20px;
+  background: #f6f8fb;
+  font-family: Arial, sans-serif;
+  color: #111827;
+}
+
+/* CONTENEUR */
+.lean-method .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* TITRE PRINCIPAL (plus fort = hiérarchie) */
+.lean-method h2 {
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin-bottom: 10px;
+}
+
+/* INTRO */
+.lean-method .intro {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #4b5563;
+  max-width: 850px;
+  margin-bottom: 10px;
+}
+
+/* SOUS-TITRE = SCÉNARISATION */
+.lean-method .subtitle {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #9ca3af;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
 /* GRID */
 .lean-method .grid {
   display: grid;
@@ -511,7 +551,6 @@ h3 {
     font-size: 30px;
   }
 }
-
 /* INGENIERIE PROCESSUS */
 
 .process-section {
