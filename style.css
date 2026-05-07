@@ -4075,59 +4075,6 @@ background: linear-gradient(135deg, #0F172A, #1E293B);
   }
 }
 
-/* RESET DE BASE */
-/* RESET DE BASE */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* FOND GLOBAL */
-html, body {
-  width: 100%;
-  min-height: 100%;
-  background: #ffffff !important;
-  color: #0f172a;
-  font-family: Arial, sans-serif;
-}
-
-/* LIENS */
-a {
-  color: #0f172a;
-  text-decoration: none;
-}
-
-/* TITRES */
-h1, h2, h3, h4 {
-  color: #0f172a;
-}
-
-/* PARAGRAPHES */
-p {
-  color: #334155;
-  line-height: 1.6;
-}
-
-/* SECTION PAR DÉFAUT */
-section {
-  background: #ffffff !important;
-  padding: 80px 20px;
-}
-
-/* CARTES (si tu en as) */
-.card {
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 12px;
-  padding: 20px;
-}
-
-/* CENTRAGE CONTENEUR */
-.container {
-  max-width: 1100px;
-  margin: auto;
-}
 
 .dark-section {
   background: linear-gradient(135deg, #0f172a, #1e293b);
@@ -4200,25 +4147,6 @@ section {
    RESET
 ========================================================= */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* =========================================================
-   GLOBAL
-========================================================= */
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background: #ffffff;
-  color: #0f172a;
-  line-height: 1.6;
 }
 
 /* =========================================================
