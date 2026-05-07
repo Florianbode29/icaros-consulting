@@ -3448,12 +3448,8 @@ values-section {
 
   border-radius: 30px;
 
-  background:
-    linear-gradient(
-      135deg,
-      #E8A42A,
-      #f2b84b
-    );
+   background: var(--finance-bg);
+  }
 
   transform: rotate(45deg);
 
@@ -3788,7 +3784,7 @@ values-section {
 }
 
 .services-section {
-  background: linear-gradient(135deg, #0f172a, #1e293b);
+  background: var(--finance-bg);
   color: #ffffff;
   padding: 80px 20px;
   display: flex;
