@@ -3030,7 +3030,7 @@ values-section {
 
   padding: 130px 20px;
 
-  background: ##0F172A;
+  background: linear-gradient(135deg, #0F172A, #1E293B);
 
   overflow: hidden;
 }
@@ -3166,11 +3166,7 @@ values-section {
 
   padding: 42px 36px;
 
-  background:
-    linear-gradient(
-      180deg,
-      #ffffff 0%,
-      #fbfcfd 100%
+background: linear-gradient(135deg, #0F172A, #1E293B);
     );
 
   border: 1px solid rgba(220,227,234,0.85);
