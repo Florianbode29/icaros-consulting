@@ -1758,3 +1758,117 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+  .support-operationnel {
+  padding: 100px 20px;
+  background: #f8fafc;
+  font-family: Arial, sans-serif;
+}
+
+/* CONTAINER */
+.support-operationnel .container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+.support-operationnel .header {
+  max-width: 760px;
+  margin-bottom: 55px;
+}
+
+/* TAG */
+.support-operationnel .tag {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #94a3b8;
+  margin-bottom: 14px;
+}
+
+/* TITLE */
+.support-operationnel h2 {
+  font-size: 40px;
+  font-weight: 750;
+  color: #111827;
+  margin-bottom: 18px;
+  line-height: 1.1;
+}
+
+/* INTRO */
+.support-operationnel .intro {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #374151;
+  margin-bottom: 16px;
+}
+
+/* DESCRIPTION */
+.support-operationnel .description {
+  font-size: 15px;
+  line-height: 1.7;
+  color: #6b7280;
+}
+
+/* CARDS GRID */
+.support-operationnel .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* CARD */
+.support-operationnel .card {
+  background: #ffffff;
+  border: 1px solid #edf1f5;
+  border-radius: 16px;
+  padding: 30px;
+  transition: all 0.25s ease;
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.04);
+}
+
+/* HOVER */
+.support-operationnel .card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.08);
+}
+
+/* ICON */
+.support-operationnel .icon {
+  font-size: 22px;
+  margin-bottom: 16px;
+  opacity: 0.8;
+}
+
+/* CARD TITLE */
+.support-operationnel .card h3 {
+  font-size: 18px;
+  font-weight: 650;
+  color: #111827;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+/* CARD TEXT */
+.support-operationnel .card p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #6b7280;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+
+  .support-operationnel .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .support-operationnel h2 {
+    font-size: 32px;
+  }
+
+  .support-operationnel {
+    padding: 80px 20px;
+  }
+}
