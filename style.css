@@ -4362,7 +4362,7 @@ a {
 ========================================================= */
 
 .values-section {
-  background: #ffffff;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
   padding: 100px 20px;
   display: flex;
   justify-content: center;
@@ -4374,7 +4374,10 @@ a {
   text-align: center;
 }
 
-/* TITRE */
+/* =========================================================
+   TITRE + INTRO (BLANC)
+========================================================= */
+
 .values-title {
   font-size: 36px;
   font-weight: 700;
@@ -4382,7 +4385,6 @@ a {
   margin-bottom: 20px;
 }
 
-/* INTRO */
 .values-intro {
   max-width: 800px;
   margin: 0 auto 60px;
@@ -4391,37 +4393,49 @@ a {
   color: #ffffff;
 }
 
-/* GRID */
+/* =========================================================
+   GRID
+========================================================= */
+
 .values-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
 
-/* CARD */
+/* =========================================================
+   CARD
+========================================================= */
+
 .values-card {
   background: #ffffff;
-  border: 1px solid #e5e7eb;
   border-radius: 16px;
   padding: 35px 30px;
-  transition: 0.3s ease;
   text-align: left;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  border: 1px solid #e5e7eb;
+  transition: 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
 .values-card:hover {
   transform: translateY(-6px);
   border-color: #E5A433;
-  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
 }
 
-/* ICÔNE */
+/* =========================================================
+   ICÔNES
+========================================================= */
+
 .values-icon {
   font-size: 36px;
   margin-bottom: 20px;
 }
 
-/* TITRE CARD */
+/* =========================================================
+   TITRES DES CARTES (NOIR)
+========================================================= */
+
 .values-card h3 {
   font-size: 20px;
   color: #0f172a;
@@ -4429,7 +4443,7 @@ a {
   position: relative;
 }
 
-/* PETITE LIGNE PREMIUM */
+/* LIGNE DORÉE */
 .values-card h3::before {
   content: "";
   display: block;
@@ -4440,14 +4454,20 @@ a {
   border-radius: 2px;
 }
 
-/* TEXTE */
+/* =========================================================
+   TEXTE DES CARTES (NOIR/GRIS FONCÉ)
+========================================================= */
+
 .values-card p {
-  color: #475569;
+  color: #334155;
   line-height: 1.7;
   font-size: 14px;
 }
 
-/* RESPONSIVE */
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
 @media (max-width: 900px) {
 
   .values-grid {
@@ -4462,18 +4482,4 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
-  .values-title,
-.values-intro {
-  color: #ffffff;
-}
-
-/* TITRES DES CARTES EN NOIR */
-.values-card h3 {
-  color: #0f172a;
-}
-
-/* TEXTE DES CARTES EN NOIR/GRIS FONCÉ */
-.values-card p {
-  color: #334155;
-}
 }
