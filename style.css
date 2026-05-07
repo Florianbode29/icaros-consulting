@@ -2626,8 +2626,12 @@ values-section {
 }
 
 .process-intro {
-  color: #667184;
+  max-width: 850px;
+  margin: 0 auto;
 
+  text-align: center;
+
+  color: #667184;
   font-size: 18px;
   line-height: 1.9;
 }
