@@ -3774,7 +3774,7 @@ values-section {
 }
 
 .identity-card:nth-child(1) .identity-photo {
-  background-image: url("florian.jpg");
+  background-image: url("florian.jpeg");
 }
 
 .identity-card:nth-child(2) .identity-photo {
