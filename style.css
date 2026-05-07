@@ -4079,7 +4079,13 @@ values-section {
   }
 }
 
-ody {
-  background: #ffffff;
+.services-grid article,
+.profiles article,
+.values article,
+.method-cards article {
+  padding: 28px;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 12px 30px rgba(24, 38, 59, 0.06);
 }
-
