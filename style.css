@@ -3549,3 +3549,44 @@ values-section {
   line-height: 1.6;
   color: #ffffff;
 }
+
+.finance-section {
+  background: var(--finance-bg);
+  color: #ffffff;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.finance-container {
+  max-width: 900px;
+  text-align: center;
+}
+
+.finance-tagline {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #94a3b8;
+  margin-bottom: 15px;
+}
+
+.finance-title {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+.finance-text {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.finance-mission {
+  font-size: 18px;
+  font-weight: 600;
+  color: #E5A433;
+}
