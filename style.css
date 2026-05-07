@@ -3608,13 +3608,11 @@ values-section {
   font-size: 34px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: #ffffff;
 }
 
 .support-description {
   font-size: 18px;
   line-height: 1.7;
-  color: #ffffff;
   max-width: 850px;
   margin: 0 auto 25px auto;
 }
@@ -3626,21 +3624,21 @@ values-section {
   margin-bottom: 60px;
 }
 
-/* Grille des 3 blocs */
+/* GRID */
 .support-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
 }
 
-/* Carte */
+/* CARD */
 .support-card {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(229, 163, 51, 0.15);
   border-radius: 14px;
   padding: 30px 20px;
   text-align: center;
-  transition: all 0.25s ease;
+  transition: 0.25s ease;
 }
 
 .support-card:hover {
@@ -3649,27 +3647,33 @@ values-section {
   background: rgba(255, 255, 255, 0.07);
 }
 
-/* Emoji / icône */
+/* SVG ICON */
 .support-icon {
-  font-size: 28px;
-  margin-bottom: 15px;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 15px auto;
 }
 
-/* Titre bloc */
+.support-icon svg {
+  width: 100%;
+  height: 100%;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/* TEXT */
 .support-card h3 {
   font-size: 18px;
   margin-bottom: 10px;
   color: #E5A433;
 }
 
-/* Texte bloc */
 .support-card p {
   font-size: 15px;
   line-height: 1.6;
-  color: #ffffff;
 }
 
-/* Responsive */
+/* RESPONSIVE */
 @media (max-width: 900px) {
   .support-grid {
     grid-template-columns: 1fr;
