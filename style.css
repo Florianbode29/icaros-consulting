@@ -1800,3 +1800,148 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* ==========================================
+   DIGITALISATION
+========================================== */
+
+.digital-section {
+  padding: 100px 20px;
+  background: #f5f7fa;
+}
+
+.digital-container {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.digital-heading {
+  max-width: 760px;
+  margin-bottom: 60px;
+}
+
+.digital-eyebrow {
+  display: inline-block;
+  margin-bottom: 14px;
+
+  color: #e8a42a;
+  font-size: 13px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.digital-heading h2 {
+  margin-bottom: 20px;
+
+  color: #18263b;
+  font-size: clamp(38px, 5vw, 62px);
+  line-height: 1.05;
+  font-weight: 800;
+}
+
+.digital-intro {
+  color: #667184;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+/* GRID */
+
+.digital-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+}
+
+/* CARD */
+
+.digital-card {
+  padding: 34px;
+
+  background: #ffffff;
+  border: 1px solid #dce3ea;
+  border-radius: 18px;
+
+  box-shadow: 0 10px 30px rgba(24, 38, 59, 0.06);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.digital-card:hover {
+  transform: translateY(-6px);
+
+  box-shadow:
+    0 16px 40px rgba(24, 38, 59, 0.10);
+}
+
+/* ICON */
+
+.digital-icon {
+  width: 58px;
+  height: 58px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 24px;
+
+  font-size: 26px;
+
+  background: rgba(232, 164, 42, 0.12);
+  border-radius: 14px;
+}
+
+/* TITLES */
+
+.digital-card h3 {
+  margin-bottom: 16px;
+
+  color: #18263b;
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+/* TEXT */
+
+.digital-card p {
+  color: #667184;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 900px) {
+
+  .digital-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .digital-section {
+    padding: 80px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .digital-card {
+    padding: 28px;
+  }
+
+  .digital-heading h2 {
+    font-size: 42px;
+  }
+
+  .digital-card h3 {
+    font-size: 21px;
+  }
+}
