@@ -3747,6 +3747,9 @@ values-section {
   color: #E5A433;
 }
 
+.section {
+  background: #0f172a;
+}
 .support-card p {
   font-size: 15px;
   line-height: 1.6;
