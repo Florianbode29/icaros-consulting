@@ -3751,24 +3751,28 @@ values-section {
   margin-bottom: 15px;
 }
 
+/* 🔵 Texte principal en blanc */
 .finance-title {
   font-size: 38px;
   font-weight: 700;
   margin-bottom: 25px;
   line-height: 1.2;
+  color: #ffffff;
 }
 
+/* 🔵 Texte explicatif en blanc */
 .finance-text {
   font-size: 18px;
   line-height: 1.7;
-  color: #e2e8f0;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 
+/* 🟠 Mission en orange */
 .finance-mission {
   font-size: 18px;
   font-weight: 600;
-  color: #38bdf8;
+  color: #E5A433;
 }
 
 /* Responsive */
