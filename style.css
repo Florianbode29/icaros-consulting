@@ -4361,6 +4361,10 @@ a {
    SECTION NOS VALEURS
 ========================================================= */
 
+/* =========================================================
+   SECTION NOS VALEURS
+========================================================= */
+
 .values-section {
   background: linear-gradient(135deg, #0f172a, #1e293b);
   padding: 100px 20px;
@@ -4375,7 +4379,7 @@ a {
 }
 
 /* =========================================================
-   TITRE + INTRO (BLANC)
+   TITRE + INTRO EN BLANC
 ========================================================= */
 
 .values-title {
@@ -4404,7 +4408,7 @@ a {
 }
 
 /* =========================================================
-   CARD
+   CARDS BLANCHES
 ========================================================= */
 
 .values-card {
@@ -4430,15 +4434,16 @@ a {
 .values-icon {
   font-size: 36px;
   margin-bottom: 20px;
+  color: #0f172a;
 }
 
 /* =========================================================
-   TITRES DES CARTES (NOIR)
+   TITRES EN NOIR
 ========================================================= */
 
 .values-card h3 {
   font-size: 20px;
-  color: #0f172a;
+  color: #000000 !important;
   margin-bottom: 12px;
   position: relative;
 }
@@ -4455,11 +4460,14 @@ a {
 }
 
 /* =========================================================
-   TEXTE DES CARTES (NOIR/GRIS FONCÉ)
+   TOUS LES TEXTES DES CARTES EN NOIR
 ========================================================= */
 
-.values-card p {
-  color: #334155;
+.values-card p,
+.values-card span,
+.values-card li,
+.values-card div {
+  color: #000000 !important;
   line-height: 1.7;
   font-size: 14px;
 }
