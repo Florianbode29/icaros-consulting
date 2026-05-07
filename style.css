@@ -4210,3 +4210,95 @@ section {
     text-align: center;
   }
 }
+
+.support-section {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #ffffff;
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.support-container {
+  max-width: 1100px;
+  width: 100%;
+  text-align: center;
+}
+
+/* TITRE */
+.support-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* INTRO */
+.support-intro {
+  font-size: 16px;
+  color: #cbd5e1;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  line-height: 1.7;
+}
+
+/* TEXTE ORANGE */
+.support-highlight {
+  color: #E5A433;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+/* GRID */
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.support-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(229, 163, 51, 0.15);
+  border-radius: 16px;
+  padding: 30px;
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.support-card:hover {
+  transform: translateY(-6px);
+  border-color: #E5A433;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+/* ICÔNES */
+.support-icon {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+/* TITRE CARD */
+.support-card h3 {
+  color: #E5A433;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+/* TEXTE */
+.support-card p {
+  color: #e2e8f0;
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .support-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .support-card {
+    text-align: center;
+  }
+}
+
