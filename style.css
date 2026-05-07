@@ -3762,3 +3762,21 @@ values-section {
     font-size: 26px;
   }
 }
+
+.identity-photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 2px solid #E5A433;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.identity-card:nth-child(1) .identity-photo {
+  background-image: url("florian.jpg");
+}
+
+.identity-card:nth-child(2) .identity-photo {
+  background-image: url("arnaud.png");
+}
