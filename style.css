@@ -3591,3 +3591,91 @@ values-section {
   color: #E5A433;
 }
 
+.support-section {
+  background: var(--finance-bg);
+  color: #ffffff;
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.support-container {
+  max-width: 1100px;
+  text-align: center;
+}
+
+.support-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.support-description {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #ffffff;
+  max-width: 850px;
+  margin: 0 auto 25px auto;
+}
+
+.support-objective {
+  font-size: 18px;
+  font-weight: 600;
+  color: #E5A433;
+  margin-bottom: 60px;
+}
+
+/* Grille des 3 blocs */
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* Carte */
+.support-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(229, 163, 51, 0.15);
+  border-radius: 14px;
+  padding: 30px 20px;
+  text-align: center;
+  transition: all 0.25s ease;
+}
+
+.support-card:hover {
+  transform: translateY(-6px);
+  border-color: #E5A433;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+/* Emoji / icône */
+.support-icon {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+/* Titre bloc */
+.support-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #E5A433;
+}
+
+/* Texte bloc */
+.support-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .support-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .support-title {
+    font-size: 26px;
+  }
+}
