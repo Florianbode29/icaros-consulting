@@ -3030,7 +3030,7 @@ values-section {
 
   padding: 130px 20px;
 
-  background: #ffffff;
+  background: ##0F172A;
 
   overflow: hidden;
 }
@@ -4199,8 +4199,3 @@ section {
   color: #e2e8f0;
   line-height: 1.6;
 }
-
-.support-section {
-  background: linear-gradient(135deg, #0f172a, #1e293b) !important;
-}
-
