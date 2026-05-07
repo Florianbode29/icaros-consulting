@@ -4075,3 +4075,13 @@ values-section {
     text-align: center;
   }
 }
+
+ody {
+  background: #ffffff;
+}
+
+/* sections sombres uniquement */
+.dark-section {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #ffffff;
+}
