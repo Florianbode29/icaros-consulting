@@ -3396,6 +3396,85 @@ values-section {
   text-transform: uppercase;
 }
 
+.identity-section {
+  background: var(--finance-bg);
+  color: #ffffff;
+  padding: 90px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.identity-container {
+  max-width: 1100px;
+  text-align: center;
+}
+
+.identity-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+/* GRID */
+.identity-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+.identity-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(229, 163, 51, 0.15);
+  border-radius: 16px;
+  padding: 35px 25px;
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.identity-card:hover {
+  transform: translateY(-6px);
+  border-color: #E5A433;
+  background: rgba(255, 255, 255, 0.07);
+}
+
+/* PHOTO PLACEHOLDER */
+.identity-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: rgba(229, 163, 51, 0.2);
+  border: 1px solid #E5A433;
+  margin-bottom: 20px;
+}
+
+/* TEXT */
+.identity-card h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.role {
+  font-size: 14px;
+  color: #E5A433;
+  margin-bottom: 15px;
+}
+
+.sector,
+.experience {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #e2e8f0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .identity-grid {
+    grid-template-columns: 1fr;
+  }
+}
 .diagnostic-header h2 {
   margin-bottom: 24px;
 
