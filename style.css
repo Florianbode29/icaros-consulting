@@ -4607,16 +4607,23 @@ a {
   }
 }
 
+
 .digital-section {
+  display: flex !important;
+  justify-content: center !important;
   text-align: center !important;
 }
 
 .digital-container {
-  margin: 0 auto;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto !important;
   text-align: center !important;
 }
 
-.digital-subtitle,
-.digital-text {
+/* force tout le texte à être centré */
+.digital-section h2,
+.digital-section h3,
+.digital-section p {
   text-align: center !important;
 }
