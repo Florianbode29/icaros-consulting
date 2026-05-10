@@ -4152,6 +4152,75 @@ a {
     font-size: 42px;
   }
 
+  
+/* =========================================================
+   SECTION TRANSFORMATION DIGITALE
+========================================================= */
+
+.digital-section {
+  background: #ffffff;
+  padding: 120px 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.digital-container {
+  max-width: 900px;
+  width: 100%;
+}
+
+/* =========================================================
+   TITRE PRINCIPAL (ORANGE)
+========================================================= */
+
+.digital-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #E5A433;
+  margin-bottom: 25px;
+}
+
+/* =========================================================
+   SOUS-TITRE (NOIR)
+========================================================= */
+
+.digital-subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 20px;
+}
+
+/* =========================================================
+   TEXTE (NOIR)
+========================================================= */
+
+.digital-text {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #334155;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 900px) {
+  .digital-title {
+    font-size: 32px;
+  }
+
+  .digital-subtitle {
+    font-size: 20px;
+  }
+
+  .digital-text {
+    font-size: 16px;
+  }
+}
   .hero p {
     font-size: 18px;
   }
