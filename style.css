@@ -4491,3 +4491,73 @@ a {
     margin-right: auto;
   }
 }
+
+.vision-section {
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  padding: 120px 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.vision-container {
+  max-width: 950px;
+  width: 100%;
+}
+
+/* =========================================================
+   TITRE
+========================================================= */
+
+.vision-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 35px;
+  line-height: 1.2;
+}
+
+/* =========================================================
+   TEXTE PRINCIPAL
+========================================================= */
+
+.vision-text {
+  font-size: 20px;
+  line-height: 1.9;
+  color: #f1f5f9;
+  margin-bottom: 35px;
+}
+
+/* =========================================================
+   TEXTE HIGHLIGHT
+========================================================= */
+
+.vision-highlight {
+  font-size: 24px;
+  font-weight: 600;
+  color: #E5A433;
+  line-height: 1.7;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 900px) {
+
+  .vision-section {
+    padding: 90px 20px;
+  }
+
+  .vision-title {
+    font-size: 32px;
+  }
+
+  .vision-text {
+    font-size: 17px;
+  }
+
+  .vision-highlight {
+    font-size: 20px;
+  }
+}
