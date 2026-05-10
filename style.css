@@ -4553,3 +4553,163 @@ a:hover {
 section {
   background: #ffffff !important;
 }
+
+/* =========================================================
+   SECTION DIAGNOSTIC
+========================================================= */
+
+.diagnostic-section {
+  background: #ffffff;
+  padding: 120px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.diagnostic-container {
+  max-width: 1100px;
+  width: 100%;
+  text-align: center;
+}
+
+/* =========================================================
+   TITRES PRINCIPAUX
+========================================================= */
+
+.diagnostic-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.diagnostic-subtitle {
+  font-size: 18px;
+  color: #475569;
+  max-width: 800px;
+  margin: 0 auto 60px;
+  line-height: 1.7;
+}
+
+/* =========================================================
+   3 PILIERS PRINCIPAUX
+========================================================= */
+
+.diagnostic-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-bottom: 80px;
+}
+
+/* CARD PRINCIPALE */
+.diagnostic-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 35px 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: 0.3s ease;
+  text-align: left;
+}
+
+.diagnostic-card:hover {
+  transform: translateY(-6px);
+  border-color: #E5A433;
+}
+
+/* ICONES */
+.diagnostic-icon {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+/* TITRES CARDS */
+.diagnostic-card h3 {
+  font-size: 20px;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+/* TEXTE CARDS */
+.diagnostic-card p {
+  font-size: 14px;
+  color: #475569;
+  line-height: 1.7;
+}
+
+/* =========================================================
+   SECTION TEXTE INTERMÉDIAIRE
+========================================================= */
+
+.diagnostic-cta {
+  font-size: 18px;
+  color: #334155;
+  max-width: 850px;
+  margin: 0 auto 80px;
+  line-height: 1.8;
+}
+
+/* =========================================================
+   4 PILIERS
+========================================================= */
+
+.diagnostic-pillars {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+/* PILIER */
+.pillar {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 25px;
+  text-align: left;
+  transition: 0.3s ease;
+}
+
+.pillar:hover {
+  border-color: #E5A433;
+  transform: translateY(-4px);
+}
+
+/* ICONES PILIERS */
+.pillar-icon {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+/* TITRE PILIER */
+.pillar h4 {
+  font-size: 16px;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+/* TEXTE PILIER */
+.pillar p {
+  font-size: 13px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1000px) {
+  .diagnostic-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .diagnostic-pillars {
+    grid-template-columns: 1fr;
+  }
+
+  .diagnostic-card,
+  .pillar {
+    text-align: center;
+  }
+}
