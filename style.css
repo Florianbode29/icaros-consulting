@@ -4179,6 +4179,8 @@ a {
   font-weight: 700;
   color: #E5A433;
   margin-bottom: 25px;
+  justify-content: center;
+  text-align: center;
 }
 
 /* =========================================================
@@ -4190,6 +4192,8 @@ a {
   font-weight: 600;
   color: #0f172a;
   margin-bottom: 20px;
+  justify-content: center;
+  text-align: center;
 }
 
 /* =========================================================
@@ -4202,6 +4206,8 @@ a {
   color: #334155;
   max-width: 800px;
   margin: 0 auto;
+  justify-content: center;
+  text-align: center;
 }
 
 /* =========================================================
