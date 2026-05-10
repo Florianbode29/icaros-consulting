@@ -4494,15 +4494,17 @@ a {
 
 .vision-section {
   background: linear-gradient(135deg, #0f172a, #1e293b);
-  padding: 120px 20px;
+  padding: 140px 20px;
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
 .vision-container {
   max-width: 950px;
   width: 100%;
+  margin: auto;
 }
 
 /* =========================================================
@@ -4510,11 +4512,12 @@ a {
 ========================================================= */
 
 .vision-title {
-  font-size: 42px;
+  font-size: 48px;
   font-weight: 700;
-  color: #ffffff;
-  margin-bottom: 35px;
+  color: #ffffff !important;
   line-height: 1.2;
+  margin-bottom: 40px;
+  letter-spacing: -1px;
 }
 
 /* =========================================================
@@ -4522,10 +4525,12 @@ a {
 ========================================================= */
 
 .vision-text {
-  font-size: 20px;
+  font-size: 21px;
   line-height: 1.9;
   color: #f1f5f9;
-  margin-bottom: 35px;
+  max-width: 850px;
+  margin: 0 auto 40px;
+  font-weight: 400;
 }
 
 /* =========================================================
@@ -4533,10 +4538,12 @@ a {
 ========================================================= */
 
 .vision-highlight {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 600;
   color: #E5A433;
   line-height: 1.7;
+  max-width: 800px;
+  margin: auto;
 }
 
 /* =========================================================
@@ -4546,18 +4553,18 @@ a {
 @media (max-width: 900px) {
 
   .vision-section {
-    padding: 90px 20px;
+    padding: 100px 20px;
   }
 
   .vision-title {
-    font-size: 32px;
+    font-size: 36px;
   }
 
   .vision-text {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .vision-highlight {
-    font-size: 20px;
+    font-size: 22px;
   }
 }
