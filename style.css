@@ -4606,3 +4606,17 @@ a {
     text-align: center;
   }
 }
+
+.digital-section {
+  text-align: center !important;
+}
+
+.digital-container {
+  margin: 0 auto;
+  text-align: center !important;
+}
+
+.digital-subtitle,
+.digital-text {
+  text-align: center !important;
+}
