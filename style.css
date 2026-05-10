@@ -3599,7 +3599,9 @@ background: linear-gradient(135deg, #0F172A, #1E293B);
 }
 
 .support-title {
-  font-size: 34px;
+ color: #ffffff !important;
+  text-align: center;
+  font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -3914,6 +3916,8 @@ background: linear-gradient(135deg, #0F172A, #1E293B);
 }
 
 .team-title {
+  color: #ffffff !important;
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 60px;
@@ -4062,11 +4066,6 @@ background: linear-gradient(135deg, #0F172A, #1E293B);
   line-height: 1.6;
 }
 
-/* =========================================================
-   RESET
-========================================================= */
-
-}
 
 /* =========================================================
    CONTAINER
@@ -4361,10 +4360,6 @@ a {
    SECTION NOS VALEURS
 ========================================================= */
 
-/* =========================================================
-   SECTION NOS VALEURS
-========================================================= */
-
 .values-section {
   background: linear-gradient(135deg, #0f172a, #1e293b);
   padding: 100px 20px;
@@ -4383,9 +4378,10 @@ a {
 ========================================================= */
 
 .values-title {
+  color: #ffffff !important;
+  text-align: center;
   font-size: 36px;
   font-weight: 700;
-  color: #ffffff;
   margin-bottom: 20px;
 }
 
