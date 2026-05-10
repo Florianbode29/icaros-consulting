@@ -1030,7 +1030,7 @@ body {
   background: rgba(201, 150, 62, 0.1);
   border: 1px solid rgba(201, 150, 62, 0.18);
   border-radius: 999px;
-  font-size: 0;
+  font-size: 1.15rem;
 }
 
 .lean-method .icon svg {
@@ -1047,7 +1047,7 @@ body {
 .digital-icon::before,
 .value-icon::before,
 .contact-icon::before {
-  content: "";
+  content: none;
   width: 14px;
   height: 14px;
   border: 2px solid currentColor;
@@ -1194,4 +1194,60 @@ body {
   .rfe-premium-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Preserve real brand marks, photos and existing pictograms.
+   This block intentionally wins over the premium decorative layer. */
+
+.logo-af {
+  color: var(--surface);
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.logo-name {
+  color: var(--ink);
+}
+
+.identity-photo,
+.team-photo,
+img {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.identity-photo,
+.team-photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.process-icon,
+.card-icon,
+.maturity-icon,
+.pillar-icon,
+.rfe-icon,
+.support-icon,
+.digital-icon,
+.value-icon,
+.contact-icon {
+  font-size: 1.45rem;
+  line-height: 1;
+}
+
+.support-icon svg {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.lean-method .icon {
+  font-size: 0;
+}
+
+.lean-method .icon svg {
+  display: block;
 }
