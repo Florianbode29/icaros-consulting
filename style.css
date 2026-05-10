@@ -4378,11 +4378,12 @@ a {
 ========================================================= */
 
 .values-title {
-  color: #ffffff !important;
+ color: #ffffff;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 20px;
+  line-height: 1.2;
 }
 
 .values-intro {
