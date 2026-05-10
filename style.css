@@ -789,3 +789,409 @@ p {
     font-size: 0.98rem;
   }
 }
+
+/* =========================================================
+   Premium art direction layer
+   CSS-only refinements for a stronger editorial look.
+========================================================= */
+
+body {
+  background:
+    linear-gradient(180deg, rgba(247, 245, 239, 0.98), rgba(247, 245, 239, 1)),
+    radial-gradient(circle at 8% 12%, rgba(201, 150, 62, 0.1), transparent 28%);
+}
+
+.header {
+  box-shadow: 0 10px 35px rgba(16, 24, 39, 0.035);
+}
+
+.logo-card {
+  transition: transform 0.18s ease;
+}
+
+.logo-card:hover {
+  transform: translateY(-1px);
+}
+
+.nav-menu a {
+  position: relative;
+}
+
+.nav-menu a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -9px;
+  height: 1px;
+  background: var(--gold);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.18s ease;
+}
+
+.nav-menu a:hover::after {
+  transform: scaleX(1);
+}
+
+.nav-contact {
+  padding: 11px 15px;
+  border: 1px solid rgba(16, 24, 39, 0.11);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.56);
+}
+
+.hero {
+  min-height: 720px;
+  isolation: isolate;
+  background:
+    linear-gradient(115deg, rgba(17, 24, 39, 0.98) 0%, rgba(23, 32, 51, 0.95) 52%, rgba(35, 48, 68, 0.9) 100%),
+    url("https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1800&q=70");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(rgba(234, 215, 181, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(234, 215, 181, 0.05) 1px, transparent 1px);
+  background-size: 72px 72px;
+  mask-image: linear-gradient(90deg, transparent, #000 44%, #000 86%, transparent);
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  right: clamp(24px, 8vw, 130px);
+  top: 50%;
+  width: min(34vw, 430px);
+  aspect-ratio: 1;
+  border: 1px solid rgba(234, 215, 181, 0.2);
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 50% 50%, rgba(201, 150, 62, 0.18) 0 2px, transparent 3px),
+    conic-gradient(from 180deg, transparent 0 18%, rgba(201, 150, 62, 0.32) 18% 19%, transparent 19% 41%, rgba(234, 215, 181, 0.2) 41% 42%, transparent 42% 100%);
+  transform: translateY(-50%);
+  opacity: 0.82;
+}
+
+.vision-container {
+  display: grid;
+  grid-template-columns: minmax(0, 0.66fr) minmax(260px, 0.34fr);
+  align-items: center;
+  gap: 48px;
+}
+
+.vision-container::after {
+  content: "P2P\A O2C\A R2R\A RFE";
+  white-space: pre;
+  justify-self: end;
+  width: min(100%, 330px);
+  padding: 30px;
+  color: rgba(234, 215, 181, 0.78);
+  border: 1px solid rgba(234, 215, 181, 0.2);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.02)),
+    linear-gradient(90deg, rgba(201, 150, 62, 0.18) 1px, transparent 1px);
+  background-size: auto, 42px 42px;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.18);
+  font-size: clamp(1.45rem, 3vw, 2.25rem);
+  font-weight: 800;
+  line-height: 1.65;
+  letter-spacing: 0.08em;
+}
+
+.vision-title,
+.vision-text,
+.vision-highlight {
+  grid-column: 1;
+}
+
+.vision-title {
+  max-width: 760px;
+  text-wrap: balance;
+}
+
+.vision-text {
+  max-width: 690px;
+}
+
+.vision-highlight {
+  width: fit-content;
+  max-width: 720px;
+  padding: 18px 22px;
+  border: 1px solid rgba(234, 215, 181, 0.18);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.055);
+}
+
+.finance-section:first-of-type {
+  position: relative;
+  margin-top: -46px;
+  padding-top: 72px;
+}
+
+.finance-section:first-of-type .finance-container {
+  padding: 34px 42px;
+  border: 1px solid rgba(229, 225, 216, 0.86);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: var(--shadow);
+}
+
+.finance-section:first-of-type .finance-title {
+  font-size: clamp(1.75rem, 3vw, 2.6rem);
+}
+
+.services-section {
+  padding-top: 72px;
+}
+
+.services-grid article,
+.finance-card,
+.process-card,
+.diagnostic-card,
+.pillar-card,
+.digital-card,
+.value-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.services-grid article::before,
+.finance-card::before,
+.process-card::before,
+.diagnostic-card::before,
+.pillar-card::before,
+.digital-card::before,
+.value-card::before {
+  content: "";
+  display: block;
+  width: 42px;
+  height: 2px;
+  margin-bottom: 20px;
+  background: var(--gold);
+}
+
+.services-grid article::after,
+.finance-card::after,
+.process-card::after,
+.diagnostic-card::after,
+.pillar-card::after,
+.digital-card::after,
+.value-card::after {
+  content: "";
+  position: absolute;
+  right: -54px;
+  top: -54px;
+  width: 130px;
+  height: 130px;
+  border: 1px solid rgba(201, 150, 62, 0.11);
+  border-radius: 50%;
+}
+
+.services-grid article p,
+.finance-card p,
+.process-card p,
+.diagnostic-card p,
+.pillar-card p,
+.digital-card p,
+.value-card p {
+  font-size: 0.95rem;
+}
+
+.lean-method .card {
+  min-height: 210px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.72));
+}
+
+.lean-method .icon,
+.process-icon,
+.card-icon,
+.maturity-icon,
+.pillar-icon,
+.rfe-icon,
+.support-icon,
+.digital-icon,
+.value-icon,
+.contact-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  color: var(--gold);
+  background: rgba(201, 150, 62, 0.1);
+  border: 1px solid rgba(201, 150, 62, 0.18);
+  border-radius: 999px;
+  font-size: 0;
+}
+
+.lean-method .icon svg {
+  width: 18px;
+  height: 18px;
+}
+
+.process-icon::before,
+.card-icon::before,
+.maturity-icon::before,
+.pillar-icon::before,
+.rfe-icon::before,
+.support-icon::before,
+.digital-icon::before,
+.value-icon::before,
+.contact-icon::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border: 2px solid currentColor;
+  border-radius: 4px;
+  transform: rotate(45deg);
+}
+
+.diagnostic-card:nth-child(2) .card-icon::before,
+.digital-card:nth-child(2) .digital-icon::before,
+.finance-card:nth-child(2)::before {
+  border-radius: 999px;
+}
+
+.rfe-premium-card,
+.support-card,
+.identity-card,
+.contact-card {
+  backdrop-filter: blur(10px);
+}
+
+.rfe-premium-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.rfe-premium-card {
+  min-height: 230px;
+}
+
+#rfe,
+#support,
+#identite,
+#contact {
+  position: relative;
+  overflow: hidden;
+}
+
+#rfe::before,
+#support::before,
+#identite::before,
+#contact::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(201, 150, 62, 0.14), transparent 28%),
+    linear-gradient(90deg, rgba(234, 215, 181, 0.05) 1px, transparent 1px);
+  background-size: auto, 72px 72px;
+  opacity: 0.72;
+}
+
+#rfe > *,
+#support > *,
+#identite > *,
+#contact > * {
+  position: relative;
+  z-index: 1;
+}
+
+.support-card {
+  border-top: 2px solid rgba(201, 150, 62, 0.7);
+}
+
+.identity-grid {
+  gap: 28px;
+}
+
+.identity-card {
+  align-items: center;
+  min-height: 260px;
+}
+
+.identity-photo {
+  filter: saturate(0.94) contrast(1.03);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18);
+}
+
+.values-grid {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-card {
+  min-height: 138px;
+}
+
+@media (max-width: 1050px) {
+  .hero::after {
+    opacity: 0.28;
+  }
+
+  .vision-container {
+    grid-template-columns: 1fr;
+  }
+
+  .vision-container::after {
+    justify-self: start;
+    width: 100%;
+    max-width: 520px;
+    padding: 22px;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .rfe-premium-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 820px) {
+  .nav-menu a::after {
+    display: none;
+  }
+
+  .nav-contact {
+    padding: 8px 10px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: 86px;
+    padding-bottom: 86px;
+  }
+
+  .hero::after {
+    display: none;
+  }
+
+  .vision-container::after {
+    content: "P2P  /  O2C  /  R2R  /  RFE";
+    font-size: 0.88rem;
+    letter-spacing: 0.06em;
+  }
+
+  .finance-section:first-of-type {
+    margin-top: 0;
+  }
+
+  .finance-section:first-of-type .finance-container {
+    padding: 28px 22px;
+  }
+
+  .rfe-premium-grid {
+    grid-template-columns: 1fr;
+  }
+}
