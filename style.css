@@ -4518,3 +4518,38 @@ a:hover {
     padding: 80px 20px;
   }
 }
+
+/* =========================================================
+   FORCE THÈME GLOBAL COHÉRENT
+========================================================= */
+
+/* TITRES */
+h1, h2, h3, h4 {
+  color: #0f172a !important;
+}
+
+/* TEXTES */
+p, li, span {
+  color: #334155 !important;
+}
+
+/* ACCENT ORANGE */
+.highlight,
+.role,
+strong {
+  color: #E5A433 !important;
+}
+
+/* LIENS */
+a {
+  color: #0f172a !important;
+}
+
+a:hover {
+  color: #E5A433 !important;
+}
+
+/* SECTIONS BLANCHES FORCÉES */
+section {
+  background: #ffffff !important;
+}
