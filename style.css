@@ -85,7 +85,7 @@ h4 {
 h2 {
   max-width: 820px;
   margin: 0 auto 20px;
-  font-size: 0.95rem;
+  font-size: 0.95rem !important;
   font-weight: 800;
   text-align: center;
 }
@@ -1555,4 +1555,3 @@ p {
   }
 }
 
-font-size: 0.95rem !important;
