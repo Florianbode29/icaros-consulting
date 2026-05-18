@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="author" content="Icaros Consulting" />
+  <meta name="theme-color" content="#172033" />
+  <meta name="format-detection" content="telephone=yes" />
   <title>Icaros Consulting | Conseil & transformation finance</title>
   <meta name="description" content="Icaros Consulting accompagne les directions financières dans la transformation de leur organisation, l’optimisation de leurs processus et la digitalisation de leurs outils." />
   <link rel="canonical" href="https://www.icaros-consulting.com/" />
@@ -11,11 +15,19 @@
   <meta property="og:description" content="Icaros Consulting accompagne les directions financières dans la transformation de leur organisation, l’optimisation de leurs processus et la digitalisation de leurs outils." />
   <meta property="og:url" content="https://www.icaros-consulting.com/" />
   <meta property="og:locale" content="fr_FR" />
-  <meta name="twitter:card" content="summary" />
+  <meta property="og:site_name" content="Icaros Consulting" />
+  <meta property="og:image" content="https://www.icaros-consulting.com/og-image.png" />
+  <meta property="og:image:alt" content="Icaros Consulting - Conseil & transformation finance" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/png" />
+  <meta name="twitter:image" content="https://www.icaros-consulting.com/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="/style.css" />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -36,33 +48,39 @@
     ]
   }
   </script>
+
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://www.icaros-consulting.com/"
+    }
+  ]
+}
+  </script>
 </head>
 <body>
   <a class="skip-link" href="#contenu">Aller au contenu</a>
   <header class="header">
     <nav class="top-nav" aria-label="Navigation principale">
-      <a href="./index.html" class="logo-card" aria-label="Icaros Consulting">
+      <a href="/" class="logo-card" aria-label="Icaros Consulting">
         <div class="logo-af">AF</div>
         <div class="logo-name"><span>Icaros</span><span>Consulting</span></div>
       </a>
       <ul class="nav-menu">
-        <li><a class="active" href="./index.html">Nos services</a></li>
-        <li><a href="./methodologie.html">Notre méthodologie</a></li>
-        <li><a href="./index.html#identite">Notre identité</a></li>
-        <li><a href="./index.html#valeurs">Nos valeurs</a></li>
+        <li><a class="active" href="/">Nos services</a></li>
+        <li><a href="/methodologie.html">Notre méthodologie</a></li>
+        <li><a href="/#identite">Notre identité</a></li>
+        <li><a href="/#valeurs">Nos valeurs</a></li>
       </ul>
-      <a href="./contact.html" class="nav-contact">Contacts</a>
+      <a href="/contact.html" class="nav-contact">Contacts</a>
     </nav>
   </header>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RQM3SLTMHD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RQM3SLTMHD');
-</script>
 
   <main id="contenu">
     <section class="hero">
@@ -102,12 +120,12 @@
       <div class="container">
         <h2>Nos services</h2>
         <div class="services-grid">
-          <article><h3>Déploiement Lean</h3><p>Nous accompagnons votre organisation afin de mettre en place une méthodologie Lean Service.</p><a href="./deploiement-lean.html">En savoir plus</a></article>
-          <article><h3>Ingénierie Processus</h3><p>Nous aidons au design et à la redéfinition de vos processus financiers et P2P.</p><a href="./ingenierie-processus.html">En savoir plus</a></article>
-          <article><h3>Assessment</h3><p>Nous évaluons la maturité de votre organisation et nous vous accompagnons vers l'excellence.</p><a href="./diagnostic-performance.html">En savoir plus</a></article>
-          <article><h3>Expertise RFE</h3><p>Nous permettons à votre structure de vous adapter à la nouvelle réglementation sur la facturation électronique.</p><a href="./expertise-rfe.html">En savoir plus</a></article>
-          <article><h3>Support opérationnel</h3><p>Nous renforçons votre structure pour vous proposer un plan d'amélioration continue optimal.</p><a href="./support-operationnel.html">En savoir plus</a></article>
-          <article><h3>Digitalisation</h3><p>Nous vous aidons à mettre en place une solution digitale, collaborative et robotique.</p><a href="./digitalisation.html">En savoir plus</a></article>
+          <article><h3>Déploiement Lean</h3><p>Nous accompagnons votre organisation afin de mettre en place une méthodologie Lean Service.</p><a href="/deploiement-lean.html">En savoir plus</a></article>
+          <article><h3>Ingénierie Processus</h3><p>Nous aidons au design et à la redéfinition de vos processus financiers et P2P.</p><a href="/ingenierie-processus.html">En savoir plus</a></article>
+          <article><h3>Assessment</h3><p>Nous évaluons la maturité de votre organisation et nous vous accompagnons vers l'excellence.</p><a href="/diagnostic-performance.html">En savoir plus</a></article>
+          <article><h3>Expertise RFE</h3><p>Nous permettons à votre structure de vous adapter à la nouvelle réglementation sur la facturation électronique.</p><a href="/expertise-rfe.html">En savoir plus</a></article>
+          <article><h3>Support opérationnel</h3><p>Nous renforçons votre structure pour vous proposer un plan d'amélioration continue optimal.</p><a href="/support-operationnel.html">En savoir plus</a></article>
+          <article><h3>Digitalisation</h3><p>Nous vous aidons à mettre en place une solution digitale, collaborative et robotique.</p><a href="/digitalisation.html">En savoir plus</a></article>
         </div>
       </div>
     </section>
@@ -117,7 +135,7 @@
         <h2>Notre identité</h2>
         <div class="identity-grid">
           <article class="identity-card">
-            <img src="./florian.jpg" alt="Florian Bodé" class="identity-photo" loading="lazy">
+            <img src="/florian.jpg" alt="Florian Bodé" class="identity-photo" loading="lazy">
             <div>
               <h3>Florian Bodé</h3>
               <p class="role">Associé fondateur</p>
@@ -126,7 +144,7 @@
             </div>
           </article>
           <article class="identity-card">
-            <img src="./arnaud.png" alt="Arnaud Greffet" class="identity-photo" loading="lazy">
+            <img src="/arnaud.png" alt="Arnaud Greffet" class="identity-photo" loading="lazy">
             <div>
               <h3>Arnaud Greffet</h3>
               <p class="role">Associé fondateur</p>
@@ -154,15 +172,15 @@
   <footer class="footer">
     <div class="footer-inner">
       <ul class="footer-links">
-        <li><a href="./deploiement-lean.html">Déploiement Lean</a></li>
-        <li><a href="./ingenierie-processus.html">Ingénierie Processus</a></li>
-        <li><a href="./diagnostic-performance.html">Assessment</a></li>
-        <li><a href="./expertise-rfe.html">Expertise RFE</a></li>
-        <li><a href="./support-operationnel.html">Support opérationnel</a></li>
-        <li><a href="./digitalisation.html">Digitalisation</a></li>
-        <li><a href="./methodologie.html">Notre méthodologie</a></li>
-        <li><a href="./cas-clients.html">Cas clients</a></li>
-        <li><a href="./contact.html">Contacts</a></li>
+        <li><a href="/deploiement-lean.html">Déploiement Lean</a></li>
+        <li><a href="/ingenierie-processus.html">Ingénierie Processus</a></li>
+        <li><a href="/diagnostic-performance.html">Assessment</a></li>
+        <li><a href="/expertise-rfe.html">Expertise RFE</a></li>
+        <li><a href="/support-operationnel.html">Support opérationnel</a></li>
+        <li><a href="/digitalisation.html">Digitalisation</a></li>
+        <li><a href="/methodologie.html">Notre méthodologie</a></li>
+        <li><a href="/cas-clients.html">Cas clients</a></li>
+        <li><a href="/contact.html">Contacts</a></li>
       </ul>
       <p>© 2026 Icaros Consulting. Expertise et innovation. Tous droits réservés.</p>
     </div>

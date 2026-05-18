@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Icaros Consulting - Conseil & transformation finance">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop stop-color="#111827"/>
+      <stop offset="0.55" stop-color="#172033"/>
+      <stop offset="1" stop-color="#263247"/>
+    </linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0v54" fill="none" stroke="#ead7b5" stroke-opacity="0.09"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <circle cx="1010" cy="130" r="210" fill="#c9963e" opacity="0.13"/>
+  <rect x="78" y="76" width="78" height="78" rx="14" fill="#f7f5ef"/>
+  <text x="117" y="128" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" fill="#172033">AF</text>
+  <text x="176" y="106" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800" fill="#ffffff">Icaros</text>
+  <text x="176" y="143" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="800" fill="#ffffff">Consulting</text>
+  <text x="78" y="268" font-family="Inter, Arial, sans-serif" font-size="68" font-weight="800" fill="#ffffff">Conseil &amp;</text>
+  <text x="78" y="350" font-family="Inter, Arial, sans-serif" font-size="68" font-weight="800" fill="#ffffff">transformation finance</text>
+  <text x="80" y="428" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="500" fill="#dbe4ee">Performance financière, processus, RFE et digitalisation.</text>
+  <rect x="78" y="486" width="430" height="3" rx="2" fill="#c9963e"/>
+  <text x="835" y="265" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="800" fill="#ead7b5">P2P</text>
+  <text x="835" y="335" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="800" fill="#ead7b5">O2C</text>
+  <text x="835" y="405" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="800" fill="#ead7b5">R2R</text>
+  <text x="835" y="475" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="800" fill="#ead7b5">RFE</text>
+</svg>
