@@ -737,46 +737,47 @@ h4 {
   }
 }
 
-contact-form {
-  max-width: 680px;
+.contact-form {
+  max-width: 720px;
   margin: 60px auto;
-  padding: 48px;
-  background: #ffffff;
-  border: 1px solid #e5e7eb;
-  border-radius: 18px;
-  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  padding: 44px;
+  background: rgba(15, 23, 42, 0.85); /* cohérent avec ton dark theme */
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(8px);
+  font-family: "Inter", sans-serif;
+  color: #e2e8f0;
 }
 
 /* Titre */
 .contact-form h3 {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
-  color: #0f172a;
   margin-bottom: 8px;
-  letter-spacing: -0.5px;
+  color: #ffffff;
+  letter-spacing: -0.3px;
 }
 
-/* Sous-titre */
+/* Sous-texte */
 .contact-form p {
   font-size: 14px;
-  color: #64748b;
-  margin-bottom: 28px;
-  line-height: 1.5;
+  color: #94a3b8;
+  margin-bottom: 26px;
 }
 
 /* Groupes */
 .form-group {
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 /* Labels */
 label {
   display: block;
-  margin-bottom: 6px;
   font-size: 13px;
+  margin-bottom: 6px;
+  color: #cbd5e1;
   font-weight: 500;
-  color: #334155;
 }
 
 /* Inputs */
@@ -784,12 +785,12 @@ input,
 select,
 textarea {
   width: 100%;
-  padding: 14px 14px;
-  border-radius: 12px;
-  border: 1px solid #e2e8f0;
-  background: #f8fafc;
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  background: rgba(2, 6, 23, 0.6);
+  color: #ffffff;
   font-size: 14px;
-  color: #0f172a;
   transition: all 0.25s ease;
 }
 
@@ -798,47 +799,40 @@ input:focus,
 select:focus,
 textarea:focus {
   outline: none;
-  border-color: #0f172a;
-  background: #ffffff;
-  box-shadow: 0 0 0 4px rgba(15, 23, 42, 0.06);
+  border-color: #38bdf8;
+  box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
 }
 
 /* Textarea */
 textarea {
-  min-height: 140px;
+  min-height: 130px;
   resize: vertical;
 }
 
-/* Bouton premium */
+/* Bouton premium (signature Icaros) */
 button {
   width: 100%;
+  padding: 14px;
   margin-top: 10px;
-  padding: 15px;
-  background: #0f172a;
-  color: #ffffff;
   border: none;
-  border-radius: 12px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #38bdf8, #3b82f6);
+  color: #ffffff;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
   transition: all 0.25s ease;
 }
 
-/* Hover subtil */
 button:hover {
-  background: #1e293b;
   transform: translateY(-1px);
+  box-shadow: 0 10px 25px rgba(59, 130, 246, 0.25);
 }
 
-/* Active */
-button:active {
-  transform: translateY(0);
-}
-
-/* Responsive */
+/* Mobile */
 @media (max-width: 768px) {
   .contact-form {
-    padding: 28px;
+    padding: 26px;
     margin: 30px 16px;
   }
 }
