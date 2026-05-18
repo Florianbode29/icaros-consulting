@@ -736,3 +736,109 @@ h4 {
     grid-template-columns: 1fr;
   }
 }
+
+contact-form {
+  max-width: 680px;
+  margin: 60px auto;
+  padding: 48px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  box-shadow: 0 20px 60px rgba(15, 23, 42, 0.08);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+/* Titre */
+.contact-form h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+}
+
+/* Sous-titre */
+.contact-form p {
+  font-size: 14px;
+  color: #64748b;
+  margin-bottom: 28px;
+  line-height: 1.5;
+}
+
+/* Groupes */
+.form-group {
+  margin-bottom: 18px;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #334155;
+}
+
+/* Inputs */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 14px 14px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  font-size: 14px;
+  color: #0f172a;
+  transition: all 0.25s ease;
+}
+
+/* Focus premium */
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #0f172a;
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(15, 23, 42, 0.06);
+}
+
+/* Textarea */
+textarea {
+  min-height: 140px;
+  resize: vertical;
+}
+
+/* Bouton premium */
+button {
+  width: 100%;
+  margin-top: 10px;
+  padding: 15px;
+  background: #0f172a;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+/* Hover subtil */
+button:hover {
+  background: #1e293b;
+  transform: translateY(-1px);
+}
+
+/* Active */
+button:active {
+  transform: translateY(0);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 28px;
+    margin: 30px 16px;
+  }
+}
