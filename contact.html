@@ -116,94 +116,58 @@
     </section>
 
     <!-- FORMULAIRE -->
-   <section class="icaros-contact-section">
+ <div class="icaros-contact-form-wrap">
 
-  <div class="icaros-contact-wrapper">
+  <form class="icaros-contact-form">
 
-    <div class="icaros-contact-left">
-
-      <span class="icaros-contact-label">
-        Contact
-      </span>
-
-      <h1>
-        Discutons de vos enjeux finance
-      </h1>
-
-      <p class="icaros-contact-intro">
-        Que vous souhaitiez structurer une transformation finance, anticiper la facturation electronique ou optimiser vos processus, nous vous recontactons rapidement pour echanger sur votre contexte.
-      </p>
-
-      <div class="icaros-contact-infos">
-          </div>
-        </div>
-
+    <div class="form-row">
+      <div class="form-group">
+        <label>Nom</label>
+        <input type="text" placeholder="Votre nom">
       </div>
 
+      <div class="form-group">
+        <label>Entreprise</label>
+        <input type="text" placeholder="Nom de votre entreprise">
+      </div>
     </div>
 
-    <div class="icaros-contact-right">
+    <div class="form-row">
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="nom@entreprise.com">
+      </div>
 
-      <form class="icaros-premium-form">
-
-        <div class="icaros-form-grid">
-
-          <div class="icaros-input-group">
-            <label>Nom</label>
-            <input type="text" placeholder="Votre nom">
-          </div>
-
-          <div class="icaros-input-group">
-            <label>Entreprise</label>
-            <input type="text" placeholder="Nom de votre entreprise">
-          </div>
-
-        </div>
-
-        <div class="icaros-form-grid">
-
-          <div class="icaros-input-group">
-            <label>Email</label>
-            <input type="email" placeholder="nom@entreprise.com">
-          </div>
-
-          <div class="icaros-input-group">
-            <label>Telephone</label>
-            <input type="text" placeholder="+33">
-          </div>
-
-        </div>
-
-        <div class="icaros-input-group">
-          <label>Sujet</label>
-
-          <select>
-            <option>Choisir un sujet</option>
-            <option>Transformation finance</option>
-            <option>Facturation electronique</option>
-            <option>Optimisation des processus</option>
-            <option>Digitalisation finance</option>
-            <option>Autre besoin</option>
-          </select>
-        </div>
-
-        <div class="icaros-input-group">
-          <label>Votre message</label>
-
-          <textarea rows="6" placeholder="Expliquez-nous votre contexte, vos enjeux ou votre besoin."></textarea>
-        </div>
-
-        <button type="submit" class="icaros-submit-btn">
-          Envoyer votre demande
-        </button>
-
-      </form>
-
+      <div class="form-group">
+        <label>Telephone</label>
+        <input type="text" placeholder="+33">
+      </div>
     </div>
 
-  </div>
+    <div class="form-group">
+      <label>Sujet</label>
+      <select>
+        <option>Choisir un sujet</option>
+        <option>Transformation finance</option>
+        <option>Facturation electronique</option>
+        <option>Optimisation processus</option>
+        <option>Digitalisation finance</option>
+        <option>Autre</option>
+      </select>
+    </div>
 
-</section>
+    <div class="form-group">
+      <label>Message</label>
+      <textarea rows="6" placeholder="Expliquez votre besoin..."></textarea>
+    </div>
+
+    <button type="submit" class="icaros-contact-btn">
+      Envoyer la demande
+    </button>
+
+  </form>
+
+</div>
 
   </main>
 
