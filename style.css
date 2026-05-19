@@ -1342,3 +1342,92 @@ h4 {
     }
   
 }
+
+.icaros-contact-form-wrap{
+    max-width:900px;
+    margin:0 auto;
+}
+
+.icaros-contact-form{
+    background: rgba(255,255,255,0.85);
+    backdrop-filter: blur(18px);
+    border-radius: 28px;
+    padding: 50px;
+    border: 1px solid rgba(15,23,42,0.08);
+    box-shadow: 0 25px 80px rgba(15,23,42,0.08);
+}
+
+.icaros-contact-form .form-row{
+    display:flex;
+    gap:20px;
+}
+
+.icaros-contact-form .form-group{
+    flex:1;
+    margin-bottom:20px;
+    display:flex;
+    flex-direction:column;
+}
+
+.icaros-contact-form label{
+    font-size:13px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    color:#0f172a;
+    margin-bottom:10px;
+}
+
+.icaros-contact-form input,
+.icaros-contact-form select,
+.icaros-contact-form textarea{
+    width:100%;
+    padding:16px 18px;
+    border-radius:16px;
+    border:1px solid #e2e8f0;
+    background:#f8fafc;
+    font-size:15px;
+    color:#0f172a;
+    outline:none;
+    transition:all .25s ease;
+    font-family:inherit;
+}
+
+.icaros-contact-form input:focus,
+.icaros-contact-form select:focus,
+.icaros-contact-form textarea:focus{
+    border-color:#2563eb;
+    background:#fff;
+    box-shadow:0 0 0 4px rgba(37,99,235,0.08);
+}
+
+.icaros-contact-btn{
+    width:100%;
+    margin-top:10px;
+    padding:18px;
+    border:none;
+    border-radius:18px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:700;
+    color:white;
+    background:linear-gradient(135deg,#0b3d91,#2563eb);
+    box-shadow:0 15px 40px rgba(37,99,235,0.25);
+    transition:all .3s ease;
+}
+
+.icaros-contact-btn:hover{
+    transform:translateY(-3px);
+    box-shadow:0 20px 55px rgba(37,99,235,0.35);
+}
+
+/* MOBILE */
+@media(max-width:768px){
+    .icaros-contact-form{
+        padding:28px;
+    }
+
+    .icaros-contact-form .form-row{
+        flex-direction:column;
+    }
+}
