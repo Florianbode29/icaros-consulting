@@ -1606,3 +1606,8 @@ h4 {
     width: 100%;
   }
 }
+
+.icaros-blog-section {
+  background: transparent;
+  padding: 60px 20px;
+}
