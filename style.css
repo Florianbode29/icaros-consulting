@@ -1592,12 +1592,9 @@ h4 {
 }
 
 .insights-description {
-
     font-size: 19px;
     line-height: 1.9;
-
-    color: var(--text-secondary);
-
+    color: rgba(255, 255, 255, 0.78);
     max-width: 720px;
 }
 
@@ -1806,14 +1803,16 @@ h4 {
 
 .insight-card h3 {
 
+   .insight-card h3 {
     font-size: 31px;
     line-height: 1.18;
     letter-spacing: -1px;
     font-weight: 600;
 
     margin-bottom: 22px;
-
     max-width: 90%;
+
+    color: #ffffff;
 }
 
 .insight-card p {
