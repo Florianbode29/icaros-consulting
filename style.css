@@ -1922,23 +1922,23 @@ h4 {
 
 
 /* Texte principal */
-.icaros-insights,
-.icaros-insights p,
 .icaros-insights h1,
 .icaros-insights h2,
-.icaros-insights h3,
-.icaros-insights a {
+.icaros-insights h3 {
     color: #ffffff;
 }
 
 /* Texte secondaire (lisibilité premium) */
-.icaros-insights .insights-description,
-.icaros-insights .insight-card p {
-    color: rgba(255, 255, 255, 0.78);
+.icaros-insights p {
+    color: rgba(255, 255, 255, 0.72);
 }
 
 /* Labels / tags */
 .icaros-insights .insight-tag,
 .icaros-insights .insights-label {
     color: #8fb4ff;
+}
+
+.icaros-insights a {
+    color: #ffffff;
 }
