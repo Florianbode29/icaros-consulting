@@ -1433,7 +1433,7 @@ h4 {
 }
 
 .blog-highlight {
-  --blog-bg: linear-gradient(135deg, #f6f9fc 0%, #ffffff 45%, #eef4ff 100%);
+  --blog-bg: linear-gradient(135deg, #f6f9fc 0%, #dbe4ee 45%, #eef4ff 100%);
   --blog-surface: rgba(255, 255, 255, 0.92);
   --blog-border: rgba(18, 46, 94, 0.12);
   --blog-text: #11233f;
@@ -1502,7 +1502,7 @@ h4 {
 }
 
 .blog-highlight__button--primary {
-  color: #ffffff;
+  color: #dbe4ee;
   background: var(--blog-accent);
   box-shadow: 0 16px 30px rgba(13, 110, 253, 0.22);
 }
