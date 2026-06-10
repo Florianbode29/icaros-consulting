@@ -1942,3 +1942,14 @@ h4 {
 .icaros-insights a {
     color: #ffffff;
 }
+
+.nav-menu li a i.fa-linkedin {
+  font-size: 20px;
+  color: #0a66c2;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.nav-menu li a:hover i.fa-linkedin {
+  transform: scale(1.15);
+  color: #004182;
+}
