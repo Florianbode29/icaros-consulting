@@ -170,9 +170,9 @@ p {
 
 .hero h1,
 .page-hero h1 {
-  max-width: 780px;
+  max-width: 720px;
   color: inherit;
-  font-size: clamp(2.6rem, 6vw, 5.2rem);
+  font-size: clamp(2.25rem, 4.8vw, 4.25rem);
   line-height: 1.04;
   font-weight: 800;
 }
